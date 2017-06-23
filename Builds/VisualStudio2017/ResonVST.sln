@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResonVST - VST", "ResonVST_VST.vcxproj", "{3E81B331-9D0C-9153-99DF-5CF44E74FB57}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D6106C2F-3689-C345-CBB1-D40332CE60CD} = {D6106C2F-3689-C345-CBB1-D40332CE60CD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ResonVST - Shared Code", "ResonVST_SharedCode.vcxproj", "{D6106C2F-3689-C345-CBB1-D40332CE60CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E81B331-9D0C-9153-99DF-5CF44E74FB57}.Debug|x64.Build.0 = Debug|x64
+		{3E81B331-9D0C-9153-99DF-5CF44E74FB57}.Debug|x64.ActiveCfg = Debug|x64
+		{3E81B331-9D0C-9153-99DF-5CF44E74FB57}.Release|x64.Build.0 = Release|x64
+		{3E81B331-9D0C-9153-99DF-5CF44E74FB57}.Release|x64.ActiveCfg = Release|x64
+		{D6106C2F-3689-C345-CBB1-D40332CE60CD}.Debug|x64.Build.0 = Debug|x64
+		{D6106C2F-3689-C345-CBB1-D40332CE60CD}.Debug|x64.ActiveCfg = Debug|x64
+		{D6106C2F-3689-C345-CBB1-D40332CE60CD}.Release|x64.Build.0 = Release|x64
+		{D6106C2F-3689-C345-CBB1-D40332CE60CD}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
